@@ -1,2 +1,2 @@
-# if-statement-practice
+# school-programs-practice
 School Practice Questions (Java)
