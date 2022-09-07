@@ -48,7 +48,7 @@ public class Courier_Rates {
         }
     }
 
-    private  static double express_delivery(double package_weight) {
+    private static double express_delivery(double package_weight) {
         if (package_weight <= 100) {
             return rate_e_0_100;
         }
