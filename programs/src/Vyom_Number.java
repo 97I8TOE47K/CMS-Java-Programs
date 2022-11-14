@@ -1,8 +1,15 @@
+import java.util.Scanner;
+
 public class Vyom_Number {
     public static void main(String[] args) {
         /* A number is a Vyom Number if it has a 0 anywhere in it */
 
-        int num = 123853, tp = 0;
+        Scanner gib_me_nom = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = gib_me_nom.nextInt();
+        gib_me_nom.close();
+
+        int tp = 0;
 
         for (int i = 1; ; i++) {
             if (num % (int)(Math.pow(10,i)) == num) {
