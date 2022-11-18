@@ -32,6 +32,13 @@ public class NumSum {
 
     }
 
+    /* 
+    * This function calculates the number of digits in a number by finding out the power of 10 
+    * by which it must be divided so that the remainder is the number itself.
+    *
+    * e.g. Remainder of 9 divided by 10 (10 power 1) is 9, and the power (exponent) is equal to the number of digits in 9 (i.e. 1)
+    * Similarly, Remainder of 258 divided by 10 power 3 (1000) is 258.
+    */
     private static int Power_of_Ten(int num) {
         int tp = 0;
 
