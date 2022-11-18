@@ -10,6 +10,8 @@ package Challenge_Problems;
  *
  *      Hence, 1900 is a Magic Number
  *
+ * Problem Credit: Mr Swarn K. Mishra, CMS Gomti Nagar - 1 Branch (who knows where he got this from? 😉)
+ *
  * */
 
 import java.util.Scanner;
