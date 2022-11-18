@@ -1,7 +1,8 @@
 # school-programs-practice
 School Practice Questions (Java)
 
-**School**: City Montessori School (CMS) - Gomti Nagar 1 Branch, Lucknow
+**School**: City Montessori School (CMS) - Gomti Nagar 1 Branch, Lucknow (CISCE)
+
 **Grade**: IX
 
 I will keep on updating the repository with Java programs, sometimes with a twist of my own and some of my great friends like @abhisheksaxena11jul and more!
