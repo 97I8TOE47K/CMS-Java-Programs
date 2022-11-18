@@ -17,7 +17,7 @@ public class pro_Tables {
 
         for (int i = 1; i <= 10; i++) {
             for (int j = x; j <= y; j++) {
-                System.out.print(j + " * " + i + " = " + i*j + "\t");
+                System.out.print(j + " * " + i + " = " + i*j + "\t"); // Thanks chote UT for that "\t"
             }
 
             System.out.println();
