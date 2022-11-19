@@ -1,6 +1,6 @@
 package Challenge_Problems;
 
-// A number is an EMIRP number if both it and its reverse are a prime.
+// A number is an EMIRP number if both it and its reverse are primes.
 
 import java.util.Scanner;
 
