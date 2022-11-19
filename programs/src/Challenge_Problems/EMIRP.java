@@ -22,7 +22,7 @@ public class EMIRP {
             temp /= 10;
         }
 
-        if (ifPrime(N) && ifPrime(reversed_N)) {
+        if (isPrime(N) && isPrime(reversed_N)) {
             System.out.println(N + " is an EMIRP Number");
         }
 
@@ -32,7 +32,7 @@ public class EMIRP {
 
     }
 
-    public static boolean ifPrime(int N) {
+    public static boolean isPrime(int N) {
         boolean Prime = true;
 
         for (int check = 2; check < N; check++) {
