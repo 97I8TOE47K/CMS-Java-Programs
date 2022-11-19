@@ -33,7 +33,7 @@ public class Magic_Number {
 
     }
 
-    private static int RecurSum(int num) {
+    public static int RecurSum(int num) {
         int sum = 0, RecurRat = num;
 
         while (RecurRat != 0) {
