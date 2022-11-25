@@ -6,8 +6,8 @@ public class Ascending_Digits {
     public static void main(String[] args) {
         Scanner num_in = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int N = num.nextInt();
-        num.close();
+        int N = num_in.nextInt();
+        num_in.close();
 
         for (int d = 0; d <= 9; d++) {
             for (int c = No_Of_Digits(N, d); c > 0; c--) {
