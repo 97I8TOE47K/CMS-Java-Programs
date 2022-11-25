@@ -32,6 +32,11 @@ public class EMIRP {
 
     }
 
+    /**
+     * This method checks if a number is prime or not
+     * @param N The number
+     * @return A <code>boolean</code> which tells if the number is prime
+     */
     public static boolean isPrime(int N) {
         boolean Prime = true;
 

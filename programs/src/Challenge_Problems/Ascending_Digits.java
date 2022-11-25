@@ -18,7 +18,14 @@ public class Ascending_Digits {
 
     }
 
+
+    /**
+     * @param Num The number
+     * @param Digit The digit whose occurrence is to be found
+     * @return No. of occurrences of the given digit in the number
+     */
     public static int No_Of_Digits(int Num, int Digit) {
+
         int digits = Power_of_Ten(Num);
         int counter = 0;
 
@@ -35,6 +42,10 @@ public class Ascending_Digits {
 
     }
 
+    /**
+     * @param num The number whose no. of digits is to be found
+     * @return No of digits in the given number
+     */
     private static int Power_of_Ten(int num) {
         int tp = 0;
 
