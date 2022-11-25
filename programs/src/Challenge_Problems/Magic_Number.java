@@ -24,11 +24,11 @@ public class Magic_Number {
         Magical_input.close();
 
         if (RecurSum(N) == 1) {
-            System.out.println(N + " is a Magic number.");
+            System.out.println(N + " is a Magic number");
         }
 
         else {
-            System.out.println(N + " is not a Magic number.");
+            System.out.println(N + " is not a Magic number");
         }
 
     }
