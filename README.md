@@ -1,4 +1,4 @@
-# school-programs-practice
+# CMS Java Programs
 School Practice Questions (Java)
 
 **School**: City Montessori School (CMS) - Gomti Nagar 1 Branch, Lucknow (CISCE)
