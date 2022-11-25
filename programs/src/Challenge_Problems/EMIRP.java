@@ -1,9 +1,14 @@
 package Challenge_Problems;
 
-// A number is an EMIRP number if both it and its reverse are primes.
+
 
 import java.util.Scanner;
 
+/**
+ * This programs checks if a number is an EMIRP Number or not.
+ * <br>
+ * A number is an EMIRP number if both it and its reverse are primes.
+ */
 public class EMIRP {
     public static void main(String[] args) {
         Scanner NaN = new Scanner(System.in);

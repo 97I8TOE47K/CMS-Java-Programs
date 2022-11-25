@@ -1,21 +1,21 @@
 package Challenge_Problems;
 
-/**
- * This program inputs a number and checks if it is a 'Magic Number' or not.
- *
- * A number is a magic Number if the recursive sum of its digits is 1.
- * e.g. 1900
- *      1 + 9 + 0 + 0 = 10
- *      1 + 0 = 1
- *
- *      Hence, 1900 is a Magic Number
- *
- * Problem Credit: Mr Swarn K. Mishra, CMS Gomti Nagar - 1 Branch (who knows where he got this from? 😉)
- *
- * */
 
 import java.util.Scanner;
 
+/**
+ * This program inputs a number and checks if it is a 'Magic Number' or not.
+ * <br> <br>
+ *
+ * A number is a Magic Number if the recursive sum of its digits is 1. <br>
+ * e.g. 1900
+ *      1 + 9 + 0 + 0 = 10, 1 + 0 = 1
+ * <br>
+ *      Hence, 1900 is a Magic Number
+ *<br> <br>
+ * Problem Credit: Mr Swarn K. Mishra, CMS Gomti Nagar - 1 Branch (who knows where he got this from? 😉)
+ *
+ * */
 public class Magic_Number {
     public static void main(String[] args) {
         Scanner Magical_input = new Scanner(System.in);
