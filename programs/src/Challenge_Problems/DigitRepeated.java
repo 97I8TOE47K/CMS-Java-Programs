@@ -1,6 +1,7 @@
 package Challenge_Problems;
 
 import java.util.Scanner;
+
 public class DigitRepeated {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
