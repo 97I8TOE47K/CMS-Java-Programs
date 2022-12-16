@@ -5,7 +5,7 @@ package Challenge_Problems;
 import java.util.Scanner;
 
 /**
- * This programs checks if a number is an EMIRP Number or not.
+ * This program checks if a number is an EMIRP Number or not.
  * <br>
  * A number is an EMIRP number if both it and its reverse are primes.
  */
@@ -40,7 +40,7 @@ public class EMIRP {
     /**
      * This method checks if a number is prime or not
      * @param N The number
-     * @return A <code>boolean</code> which tells if the number is prime
+     * @return A {@code boolean} which tells if the number is prime
      */
     public static boolean isPrime(int N) {
         boolean Prime = true;
