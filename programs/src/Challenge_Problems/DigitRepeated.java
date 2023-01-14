@@ -19,8 +19,8 @@ public class DigitRepeated {
 
         outer:
         for (int i = 0; i <= numArr.length - 1; i++) {
-            for (int j = 0; j <= numArr.length - 1; j++) {
-                if (i != j && (numArr[i] == numArr[j] && numArr[j] == D_char)) {
+            for (int j = i+1; j <= numArr.length - 1; j++) {
+                if (numArr[i] == numArr[j] && numArr[j] == D_char) {
                     System.out.println("The digit is repeated");
                     break outer;
                 }
