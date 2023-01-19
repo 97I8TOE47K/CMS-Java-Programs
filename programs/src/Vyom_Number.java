@@ -9,7 +9,7 @@ public class Vyom_Number {
         int num = gib_me_nom.nextInt();
         gib_me_nom.close();
 
-        int tp = 0;
+        int tp;
 
         for (int i = 1; ; i++) {
             if (num % (int)(Math.pow(10,i)) == num) {
