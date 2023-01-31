@@ -12,9 +12,9 @@ public class Fibonacci {
 
             for (int i = 1; i <= NE-1; i++) {
                 System.out.println(T2);
-                int temp = T2;
+                int T2_reserve = T2;
                 T2 += T1;
-                T1 = temp;
+                T1 = T2_reserve;
 
         }
 
